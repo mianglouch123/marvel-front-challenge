@@ -13,13 +13,13 @@ export default function HeroBanner(){
              <h2 className="py-4">PROGRESO DE PELICULAS PRODUCIDAS</h2>
 
              <div className="flex flex-col items-center flex-end gap-2 ">
-                <small className="flex flex-col items-center justify-center ml-[330px] text-[16px] text-[#C89B3C]">100 Peliculas <small>meta producción</small></small>
+                <small className="flex flex-col items-center justify-center ml-[330px] pt-2 text-[16px] text-[#C89B3C]">100 Peliculas <small>meta producción</small></small>
              
              <div className="flex absolute  items-center justify-start relative bg-[#ffffff]  h-[30px] w-[400px]  rounded-[1px] border border-[#C89B3C] ">
              {[...Array(10)].map((_, index) => (
             <div key={index} className=" flex relative items-center justify-center  w-[10%] border-2 z-[1000] border-black  h-[40px]"></div>
   ))}
-           <div  className={`absolute h-[30px] mb-2 w-[${percentaje}%] translate-y-1 tra bg-gradient-to-b from-teal-500 z-0 via-cyan-300 via-lightBlue-400 to-blue-500`}></div>
+           <div  className={`absolute h-[30px] mb-2 w-[${percentaje}%] translate-y-1 tra bg-[#58dfea]`}></div>
              
              </div>
              <div>
