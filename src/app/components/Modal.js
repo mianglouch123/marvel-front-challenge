@@ -15,7 +15,7 @@ export default function Modal({isOpenModal, setOpenModal , characterById}){
 
             <Image className="object-cover " src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt="logo avatar" height={500} width={410} />
              <p className="py-8 font-bold bg-slate-900/60 z-50 w-full flex items-center justify-center absolute bottom-0 ">{character.name}</p>
-        </div>
+g        </div>
        ))   
     }
     </div>
